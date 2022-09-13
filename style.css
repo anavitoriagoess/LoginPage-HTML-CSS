@@ -1,0 +1,107 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    
+    background: rgb(74,188,231);
+    background: linear-gradient(0deg, rgba(74,188,231,0.3113620448179272) 0%,
+     rgba(235,164,225,0.3169642857142857) 100%);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+.container h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+}
+
+.input_username {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+input::placeholder {
+   padding: 20px;
+}
+.link_forgotpass {
+    display: flex;
+    justify-content: flex-end;
+}
+.forgot-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #191970;
+}
+.forgot-link:hover {
+    color: #eee;
+}
+.content_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: #191970;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.content_anotherway {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    color: rgb(118, 118, 118);
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(118, 118, 118);
+    transform: rotate(90deg);
+    height: 50px;
+}
+.content_socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
